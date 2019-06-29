@@ -52,5 +52,7 @@ password:
 <p class='note'>
 It seems that it is not necessary to use the password in current generation Fritz!Box routers because the necessary data can be retrieved anonymously.
 </p>
-
+<p class='note'>
+The Fritz!Box can keep devices in cache for many hours. So it looks like the device is at home while it is not.
+</p>
 See the [device tracker integration page](/components/device_tracker/) for instructions how to configure the people to be tracked.
