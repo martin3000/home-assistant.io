@@ -210,7 +210,7 @@ The output from `ls -ltr` above contains the following information:
 * It is owned by `root` and can be accessed by members of the group `dialout`
 * It has a major device number of `204`, and a minor device number of `64`
 * The device was connected at `10:25` on `21 September`
-* The device is `/dev/ttyUSB0`.
+* The device is `/dev/ttyACM0`.
 
 #### {% linkable_title macOS %}
 
