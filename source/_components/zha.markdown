@@ -54,6 +54,7 @@ The custom quirks implementations for zigpy implemented as ZHA Device Handlers f
   - Telegesis ETRX357USB (Note! This first have to be flashed with other EmberZNet firmware)
   - Telegesis ETRX357USB-LRS (Note! This first have to be flashed with other EmberZNet firmware)
   - Telegesis ETRX357USB-LRS+8M (Note! This first have to be flashed with other EmberZNet firmware)
+  - Bitron Video USB Adapter (for Europe)
 - XBee Zigbee based radios (via the [zigpy-xbee](https://github.com/zigpy/zigpy-xbee) library for zigpy)
   - Digi XBee Series 3 (xbee3-24) modules
   - Digi XBee Series 2C (S2C) modules
