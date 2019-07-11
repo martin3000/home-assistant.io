@@ -230,7 +230,7 @@ $ ls /dev/cu.usbmodem*
 
 ### Device path changes
 
-If your device path changes when you restart, see [this guide](http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/) on fixing it.
+If your device path changes when you re-insert the stick, you can use automatic symbolic links with the USB id like /dev/serial/by-id/usb-0658_0200-if00. To find the USB id use lsusb. Or see [this guide](http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/) on fixing it.
 
 ## Ubuntu and Debian based host system
 
