@@ -335,6 +335,10 @@ sensor:
         lon_ne: -73.735
         lat_sw: 40.552
         lon_sw: -74.105
+        monitored_conditions:
+          - rain
+          - windstrength
+
 ```
 
 {% configuration %}
@@ -377,6 +381,10 @@ areas:
       required: false
       type: string
       default: Netatmo Public Data
+    monitored_conditions:
+      description: measurement values
+      required: true
+      type: string
     mode:
       description: "How to calculate the value of the sensor if there are multiple stations reporting data. Accepts `max` or `avg`."
       required: false
