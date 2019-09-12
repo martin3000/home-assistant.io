@@ -148,7 +148,8 @@ An additional step is required to run Home Assistant as a non-root user and use 
 ```bash
 sudo setcap 'cap_net_bind_service=+ep' /srv/homeassistant/homeassistant_venv/bin/python3
 ```
-Please note that your path may be different depending on your installation method. For example, if you followed the [Virtualenv instructions](/docs/installation/virtualenv/), your path will be `/srv/homeassistant/bin/python3`.
+Please note that your path may be different depending on your installation method. For example, if you followed the [Virtualenv instructions](/docs/installation/virtualenv/), your path will be `/srv/homeassistant/bin/python3`. setcap will not work with links. So instead of /usr/bin/python3 you have to use /usr/bin/python3.7
+
 
 ### License
 
